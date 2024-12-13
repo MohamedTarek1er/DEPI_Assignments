@@ -30,13 +30,13 @@ select distinct department_id from employees
 --Address (default 'N/A'), City (default 'N/A'), and Birth_Date. 
 
 
-CREATE TABLE students (
-    ID INT PRIMARY KEY,
-    First_Name VARCHAR(50) NOT NULL,
-    Last_Name VARCHAR(50) DEFAULT 'Unknown',
-    Address VARCHAR(100) DEFAULT 'N/A',
-    City VARCHAR(50) DEFAULT 'N/A',
-    Birth_Date DATE
+create table students (
+    id int primary key,
+    first_name varchar(50) NOT NULL,
+	last_name varchar(50) default 'Unknown',
+	address varchar(100) default 'N/A',
+	city varchar(50) default 'N/A',
+	birth_date date
 );
 
 --Write a SQL query to drop the students table. 
